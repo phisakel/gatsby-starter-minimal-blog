@@ -18,6 +18,14 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-theme-app-landing-page',
+      options: {
+        appStoreId: 123456,
+        typography: 'slab',
+        appearance: 'dark',
+      },
+    },
+    {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
