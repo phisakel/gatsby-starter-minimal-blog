@@ -17,14 +17,7 @@ module.exports = {
     author: `@lekoarts_de`,
   },
   plugins: [
-    {
-      resolve: 'gatsby-theme-app-landing-page',
-      options: {
-        appStoreId: '1581497559',
-        typography: 'slab',
-        appearance: 'light',
-      },
-    },
+    //{ resolve: 'gatsby-theme-app-landing-page', options: { appStoreId: '1581497559', typography: 'slab', appearance: 'light', }, },
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
