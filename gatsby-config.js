@@ -20,9 +20,9 @@ module.exports = {
     {
       resolve: 'gatsby-theme-app-landing-page',
       options: {
-        appStoreId: 123456,
+        appStoreId: '1581497559',
         typography: 'slab',
-        appearance: 'dark',
+        appearance: 'light',
       },
     },
     {
